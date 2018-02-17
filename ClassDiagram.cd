@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Class_Game_over" Collapsed="true">
+    <Position X="24.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAIBACAAAAAAgFAAAAAIQ=</HashCode>
+      <FileName>Class_Game_over.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Class_Information" Collapsed="true">
+    <Position X="23" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAIAAgAAAAA=</HashCode>
+      <FileName>Class_Information.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Class_Menu" Collapsed="true">
+    <Position X="24" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAACAAAEAAAAAAAAAMBAOAQAAAAwBAgAAAIQ=</HashCode>
+      <FileName>Class_Menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Class_Network">
+    <Position X="22" Y="11.25" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Class_Network::piece" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Class_Network.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAEIAAgAAAAAAAIAAIBBqQAAAAwhjAAAAEIQ=</HashCode>
+      <FileName>Class_Network.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Class_Option" Collapsed="true">
+    <Position X="25.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEiAAAAACAAAAAAQIhAOAAAAAAgFQAAAAIQ=</HashCode>
+      <FileName>Class_Option.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Class_Realization" Collapsed="true">
+    <Position X="24.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAEIAAAEAAAAAAIAAIBBqQAAAAwhjAAAAEIQ=</HashCode>
+      <FileName>Class_Realization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Class_Screensaver" Collapsed="true">
+    <Position X="20.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAQAAAAAJAAAAAAAAAAQ9AAAAAIA=</HashCode>
+      <FileName>Class_Screensaver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Class_Studies" Collapsed="true">
+    <Position X="27.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAABAABAAAQAAAIIBAKAAACAEwBAAAAAIQ=</HashCode>
+      <FileName>Class_Studies.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Class_Client" Collapsed="true">
+    <Position X="23" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAAAAAACAAAAAAAAAAAAAABAAAAAAAAgEAAAAAAA=</HashCode>
+      <FileName>Class_Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Class_Client_or_Server">
+    <Position X="24" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACAAAAAAACAAAAAAACAAAAAAAgEAAAAAAA=</HashCode>
+      <FileName>Class_Client_or_Server.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Class_Server" Collapsed="true">
+    <Position X="25.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAACAAAAEgEAAAAAAA=</HashCode>
+      <FileName>Class_Server.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
