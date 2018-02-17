@@ -1,0 +1,14 @@
+﻿  Class_Network.cpp
+Class_Network.cpp(196): warning C4244: инициализация: преобразование "time_t" в "int", возможна потеря данных
+Class_Network.cpp(204): warning C4244: инициализация: преобразование "time_t" в "int", возможна потеря данных
+Class_Network.cpp(579): warning C4553: ==: оператор не имеет результата; возможно, имелся в виду "="
+Class_Network.cpp(586): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+Class_Network.cpp(587): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+Class_Network.cpp(599): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+Class_Network.cpp(600): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Создание кода
+  1 of 174 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  kursik.vcxproj -> C:\Users\mturo\Desktop\КУРСОВАЯ(release)\Release\kursik.exe
