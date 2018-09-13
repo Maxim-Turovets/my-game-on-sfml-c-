@@ -1,5 +1,5 @@
 # my-game-on-sfml-cpp<
-<b>c++</b>
+<b>SFML</b>
 
 
 ![Image alt](https://github.com/Maxim-Turovets/my-game-on-sfml-cpp/raw/master/scrin/1.jpg)
