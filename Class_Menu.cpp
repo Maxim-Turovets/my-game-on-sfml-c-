@@ -8,19 +8,15 @@
 
 string Class_Menu::ip = "";
 void Class_Menu::Menu(RenderWindow & window)
-{
-	// Загрузка музыки 
-	
-		Music music, music2;//создаем объект музыки
-		music.openFromFile("./sound/elem.ogg");//загружаем файл
+{	
+		Music music, music2;//Г±Г®Г§Г¤Г ГҐГ¬ Г®ГЎГєГҐГЄГІ Г¬ГіГ§Г»ГЄГЁ
+		music.openFromFile("./sound/elem.ogg");//Г§Г ГЈГ°ГіГ¦Г ГҐГ¬ ГґГ Г©Г«
 		music2.openFromFile("./sound/menu.ogg");
 		if (Class_Option::volume_static == true)
 		{
 			music2.play();
-		}
-	
+		}	
 
-	// Загрузка картинок 
 	{
 		menuTexture1.loadFromFile("./images/button_new_game.png");
 		menuTexture2.loadFromFile("./images/button_program.png");
@@ -32,10 +28,10 @@ void Class_Menu::Menu(RenderWindow & window)
 		//t7.loadFromFile("./images/multi_on.png");
 	}
 
-	// Загрузка спрайтов
+	
 	Sprite menu1(menuTexture1), menu2(menuTexture2), menu3(menuTexture3), infBg(inf_Background), menuBg(menuBackground),/*stil_1(tm1), stil_2(tm2), stil_3(tm3), stil_4(tm4),*/ bout(t12), multi_off(t6);//, multi_on(t7);
 	
-	//  Позиции спрайтов 
+	//  ГЏГ®Г§ГЁГ¶ГЁГЁ Г±ГЇГ°Г Г©ГІГ®Гў 
 	{
 		menu1.setPosition(281, 102);
 		menu2.setPosition(297, 170);
@@ -48,7 +44,7 @@ void Class_Menu::Menu(RenderWindow & window)
 
 
 	
-	//////////////////////////////МЕНЮ///////////////////
+	//////////////////////////////ГЊГ…ГЌГћ///////////////////
 	
 	while (isMenu)
 	{
@@ -66,7 +62,7 @@ void Class_Menu::Menu(RenderWindow & window)
 	
 	 
 
-		// Цвета спрайтов 
+		// Г–ГўГҐГІГ  Г±ГЇГ°Г Г©ГІГ®Гў 
 		{
 			menu1.setColor(Color::White);
 			menu2.setColor(Color::White);
@@ -75,7 +71,7 @@ void Class_Menu::Menu(RenderWindow & window)
 			window.clear(Color(129, 181, 221));
 		}
 
-		// если нажата кнопка №1
+		// ГҐГ±Г«ГЁ Г­Г Г¦Г ГІГ  ГЄГ­Г®ГЇГЄГ  В№1
 		{
 			if (IntRect(282, 101, 200, 58).contains(Mouse::getPosition(window)))
 			{
@@ -88,7 +84,7 @@ void Class_Menu::Menu(RenderWindow & window)
 			}
 		}
 
-		// если нажата кнопка №2
+		// ГҐГ±Г«ГЁ Г­Г Г¦Г ГІГ  ГЄГ­Г®ГЇГЄГ  В№2
 		{
 			if (IntRect(288, 170, 188, 55).contains(Mouse::getPosition(window)))
 			{
@@ -100,7 +96,7 @@ void Class_Menu::Menu(RenderWindow & window)
 			}
 		}
 
-		// если нажата кнопка №4
+		// ГҐГ±Г«ГЁ Г­Г Г¦Г ГІГ  ГЄГ­Г®ГЇГЄГ  В№4
 		{
 			if (IntRect(310, 280, 141, 59).contains(Mouse::getPosition(window)))
 			{
@@ -112,7 +108,7 @@ void Class_Menu::Menu(RenderWindow & window)
 			}
 		}
 		
-		//  Если нажата одна из кнопок
+		//  Г…Г±Г«ГЁ Г­Г Г¦Г ГІГ  Г®Г¤Г­Г  ГЁГ§ ГЄГ­Г®ГЇГ®ГЄ
 		{
 			if (Mouse::isButtonPressed(Mouse::Left))
 			{
@@ -122,7 +118,7 @@ void Class_Menu::Menu(RenderWindow & window)
 					window.close();
 					Class_Realization ob;
 					RenderWindow app(VideoMode(740, 480), "GAMfffE");
-					music.stop();//    звук  кнопки
+					music.stop();//    Г§ГўГіГЄ  ГЄГ­Г®ГЇГЄГЁ
 					app.setFramerateLimit(60);
 					ob.Realization(app);
 
@@ -149,7 +145,7 @@ void Class_Menu::Menu(RenderWindow & window)
 			}
 		}
 
-		/////////////////////////////////////////////////////////// ABOUT THE PROGRAM  (если нажата кнопка №3)
+		/////////////////////////////////////////////////////////// ABOUT THE PROGRAM  (ГҐГ±Г«ГЁ Г­Г Г¦Г ГІГ  ГЄГ­Г®ГЇГЄГ  В№3)
 		if (IntRect(296, 228, 174, 52).contains(Mouse::getPosition(window)))
 		{
 			t12.loadFromFile("./images/option2.png");
@@ -208,7 +204,7 @@ void Class_Menu::Menu(RenderWindow & window)
 				window.close();
 				Class_Network ob;
 				RenderWindow app(VideoMode(740, 480), "GAMfffE");
-				music.stop();//    звук  кнопки
+				music.stop();//    Г§ГўГіГЄ  ГЄГ­Г®ГЇГЄГЁ
 				app.setFramerateLimit(60);
 				ob.Realization(app);
 			}
